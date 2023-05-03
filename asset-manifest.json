@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/My_portfolio/static/css/main.283b9dab.css",
+    "main.js": "/My_portfolio/static/js/main.c2952bfe.js",
+    "static/js/787.128fc6e9.chunk.js": "/My_portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/Md_Alam Resume.pdf": "/My_portfolio/static/media/Md_Alam Resume.f75ed235e79d80c05a12.pdf",
+    "index.html": "/My_portfolio/index.html",
+    "main.283b9dab.css.map": "/My_portfolio/static/css/main.283b9dab.css.map",
+    "main.c2952bfe.js.map": "/My_portfolio/static/js/main.c2952bfe.js.map",
+    "787.128fc6e9.chunk.js.map": "/My_portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.283b9dab.css",
+    "static/js/main.c2952bfe.js"
+  ]
+}
