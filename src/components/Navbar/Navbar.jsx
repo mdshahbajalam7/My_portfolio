@@ -89,7 +89,7 @@ const Navbar = () => {
                   style={{ color: darkMode ? "white" : "" }}
                   className="atageresume"
                   target="_blank"
-                  href="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1ocxPH_LIE-0YQ1IpdjOiZccu5WsmrE5G/view?usp=sharing"
                 >
                   Resume
                 </a>
@@ -195,7 +195,7 @@ const Navbar = () => {
                 }}
                 className="atageresume"
                 target="_blank"
-                href="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ocxPH_LIE-0YQ1IpdjOiZccu5WsmrE5G/view?usp=sharing"
               >
                 Resume
               </a>

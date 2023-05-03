@@ -13,7 +13,7 @@ export const project = [
     desc: "Amazon Prime Video, also known simply as Prime Video, is an American subscription video on-demand over-the-top streaming and rental service of Amazon offered as a standalone service or as part of Amazon's Prime subscription.",
     tech: "HTML CSS, JAVASCRIPT",
     git: "https://github.com/mdshahbajalam7/primeVideoProject",
-    deploy: "https://nervous-sammet-6ff0d4.netlify.app/",
+    deploy: "https://brilliant-cannoli-be5942.netlify.app/",
   },
   {
     img: "https://static.borngroup.com/uploads/2020/07/SS1-2-1280x0-c-default.jpg",

@@ -4,7 +4,7 @@ import { themeContext } from "../../Context";
 import { Typewriter } from "react-simple-typewriter";
 import SmoothList from "react-smooth-list";
 import { BsGithub } from "react-icons/bs"
-import resume from "./Md_Alam Resume.pdf"
+import resume from "./Md_Shahbaj_Alam Resume.pdf"
 import { AiOutlineDownload, IconName } from "react-icons/ai";
 const Intro = () => {
   const theme = useContext(themeContext);
@@ -12,7 +12,7 @@ const Intro = () => {
 
   const handleclick = () => {
     window.open(
-      "https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
+      "https://drive.google.com/file/d/1ocxPH_LIE-0YQ1IpdjOiZccu5WsmrE5G/view?usp=sharing"
     );
   };
   return (
