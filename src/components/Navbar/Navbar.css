@@ -1,0 +1,158 @@
+*{
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.atageresume{
+  text-decoration: none;
+  color: black;
+  /* color: white; */
+  font-size: 20px;
+  /* font-weight: 600; */
+}
+.Nav-main {
+  width: 100%;
+  /* border: 1px solid; */
+}
+.n-wrapper {
+  /* height: 10vh; */
+
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  top: 0;
+  position: fixed;
+  /* background-color: white; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 100%;
+  /* margin-left: -70px; */
+  /* padding-left: 0.9rem; */
+  z-index: 1;
+  color: black;
+}
+.n-left {
+  flex: 1;
+  align-items: center;
+  justify-content: left;
+  display: flex;
+  gap: 2rem;
+}
+
+.n-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.n-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-weight: 400;
+}
+
+.n-list {
+  flex: 10;
+}
+.n-list > ul {
+  display: flex;
+  gap: 2rem;
+  /* margin-right: 4rem; */
+}
+
+.n-list > ul :hover {
+  color: orange;
+  cursor: pointer;
+}
+
+.n-button {
+  flex: 2;
+}
+.n-name {
+  width: 100px;
+  height: 60px;
+  margin-left: 20px;
+}
+.list {
+  font-weight: 500 !important;
+  font-size: 20px;
+  transition: 0.5s;
+}
+.hide_menu {
+  display: none;
+  z-index: 1;
+  transition: 0.5s;
+}
+.hide_menu svg {
+  height: 200px;
+  transition: 0.5s;
+}
+.new_hide {
+  display: none;
+  transition: 0.5s;
+}
+.Show_li {
+  position: absolute;
+  /* position: fixed; */
+  top: 0;
+  /* left: -20px; */
+  right: 0;
+  width: 60%;
+  height: 100%;
+  padding-top: 20px;
+  padding-bottom: 100%;
+  background-color: rgb(3, 255, 213);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: 35px;
+  list-style: none;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+  transition: 5s;
+}
+.hide_name {
+  color: crimson;
+  text-shadow: 1px 1px 3px rgba(220, 20, 60, 0.433);
+  transition: 0.3s;
+  font-weight: 600;
+}
+ul .active {
+  transition: 0.2s;
+  color: crimson;
+  font-weight: 700 !important;
+}
+@media screen and (max-width: 1024px) {
+  .Nav-main {
+    width: 90%;
+  }
+  .n-wrapper {
+    width: 100%;
+    display: flex;
+  }
+  .n-list {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Nav-main {
+    width: 90%;
+  }
+  .n-wrapper {
+    width: 100%;
+  }
+
+  .n-list {
+    display: none;
+  }
+  .hide_menu {
+    display: block;
+    margin-right: 50px;
+    transition: 0.5s;
+  }
+}
