@@ -1,5 +1,6 @@
 {
-  "name": "my-portfolio",
+  "homepage": "https://mdshahbajalam7.github.io/My_portfolio",
+  "name": "My_portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
